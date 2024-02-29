@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Grid_sec{
+    height: 50vh;
+    width: 28%;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.Grid_para{
+    width: 70%;
+    /* border: 1px solid red; */
+    text-align: start;
+    color: #624d5d;
+    height: auto;
+    background-color: #f9fafb;
+    border-radius: 10px;
+    line-height: 1.56rem;
+}
+
+.Grid_para p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.down{
+    margin-top: 1rem;
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    gap: 1rem;
+}
+
+.down_text{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.down_text p{
+    margin: 2px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.down_text .second_para{
+    font-weight: 400;
+}
+
+.Grid_girl img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* object-fit: cover; */
+}
+

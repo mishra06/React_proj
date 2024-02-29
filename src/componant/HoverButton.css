@@ -1,0 +1,17 @@
+.buttonn {
+    background-color: #4f46e5;
+    color: white;
+    padding: 15px .5rem;
+    border: none;
+    width: 11rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  
+.buttonn:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid blue;
+    
+}
