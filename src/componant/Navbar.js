@@ -15,7 +15,7 @@ const Navbar = () => {
                     <span><NavLink to="/home" style={{textDecoration:'none', color:'green'}}>Home</NavLink></span>
                     <span><NavLink to='/Quotes' style={{textDecoration:'none'}}>Quote</NavLink></span>
                     <span><NavLink to='/Restaurant' style={{textDecoration:'none'}}>Resturants</NavLink></span>
-                    <span><NavLink style={{textDecoration:'none'}}>Foods</NavLink></span>
+                    <span><NavLink to='/Foods' style={{textDecoration:'none'}}>Foods</NavLink></span>
                     <span><NavLink style={{textDecoration:'none'}}>Contact</NavLink></span>
                 </div>
                 <div className="button_sec">
