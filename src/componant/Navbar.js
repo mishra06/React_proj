@@ -19,7 +19,9 @@ const Navbar = () => {
                     <span><NavLink style={{textDecoration:'none'}}>Contact</NavLink></span>
                 </div>
                 <div className="button_sec">
-                <Button borderKaRadius={"10px"} backgroundKaColor={"#1C4ED8"} fontColor={"#FFFFFF"} padding={"9px 1rem"} border={"none"}>Get Started</Button>
+                <Button onClick={()=>{
+                    
+                }} borderKaRadius={"10px"} backgroundKaColor={"#1C4ED8"} fontColor={"#FFFFFF"} padding={"9px 1rem"} border={"none"}>Get Started</Button>
                 </div>
             </nav> 
         </>

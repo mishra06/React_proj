@@ -1,0 +1,95 @@
+.signup_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 1rem;
+    background-color: rgb(100, 100, 229);
+}
+
+
+
+.page_setup{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    border: 8px solid rgb(246, 140, 140);
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 20px;
+    
+}
+
+.page_setup:hover{
+    border: 8px solid greenyellow;
+}
+
+.signup_upper_section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 95%;
+}
+
+.signup_upper_section > input{
+    height: 3rem;
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(169, 143, 209);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.btnn{
+   
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    gap: 1rem;
+    align-items: center;
+   
+}
+
+.btnn > button{
+    border-radius: 15px;
+    padding:  10px 45px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(165, 248, 248);
+    font-size: 15px;
+}
+
+.btnn > button:hover{
+    background-color: brown;
+    color: white;
+
+}
+.btnn > span{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btnn > span>button{
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.btnn > span>button:hover{
+    background-color: rgb(0, 255, 13);
+    color: rgb(0, 0, 0);
+}
